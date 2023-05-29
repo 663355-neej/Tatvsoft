@@ -1,0 +1,114 @@
+.wrapper::selection {
+    color: #fff;
+    background-color: #f14d54;
+}
+.wrapper {
+    box-shadow: 0 0 5px #666666;
+    width: 90%;
+    margin: 0 auto 20px;
+    padding: 20px 0;
+    border-radius: 0 0 5px 5px;
+    background-color:#dbebfa;
+    box-shadow: 2px -18px 16px 13px rgb(68 10 229 / 10%);
+}
+.breadcrumbWrapper {
+    font-family: Poppins;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.breadcrumbWrapper a {
+    color: #414141;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.breadcrumbWrapper a:hover {
+    color: #f14d54;
+    text-decoration: none;
+}
+.current{
+    color: #f14d54;
+}
+.loginHeader {
+    width: fit-content;
+    margin: 0 auto;
+    color: #414141;
+}
+
+.loginHeader h1::before {
+    position: absolute;
+    color: #f14d54;
+}
+
+.loginHeader h1 a {
+    color: #414141;
+    text-decoration: none;
+    padding-left: 5;
+    transition: 0.2s;
+}
+
+.loginHeader h1 a:hover {
+    color: #f14d54;
+    text-decoration: none;
+}
+
+.login-header hr {
+    margin-top: 0;
+    width: 30%;
+    border: none;
+    border-top: 1.5px solid #f14d54;
+}
+
+.formBlock {
+    width: 65%;
+    margin: 20px auto 0px;
+}
+
+.formBlock .personalinfo .formrowwrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+
+.formBlock .personalinfo .formrowwrapper .formcol {
+    margin-top: 20px;
+}
+
+.formBlock .personalinfo .formrowwrapper .formcol .formfield {
+    width: 80%;
+}
+
+.formBlock .personalinfo .formrowwrapper .formcol .formfield label[data-shrink='true'] {
+    padding: 0 5px;
+    background-color: #fff;
+}
+
+.formBlock .logininfo {
+    margin-top: 30px;
+}
+
+.formBlock .logininfo .formrowwrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+
+.formBlock .logininfo .formrowwrapper .formcol {
+    margin-top: 20px;
+}
+
+.formBlock .logininfo .formrowwrapper .formcol .formfield {
+    width: 80%;
+}
+
+.formBlock .logininfo .formrowwrapper .formcol .formfield label[data-shrink='true'] {
+    padding: 0 5px;
+    background-color: #fff;
+}
+
+.formBlock .registerbutton {
+    margin-top: 20px;
+}
