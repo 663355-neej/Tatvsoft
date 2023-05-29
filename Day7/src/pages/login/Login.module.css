@@ -1,0 +1,96 @@
+.wrapper {
+    box-shadow: 0 0 5px #666666;
+    width: 90%;
+    margin: 0 auto 20px;
+    padding: 20px 0;
+    border-radius: 0 0 5px 5px;
+    background-color:#dbebfa;
+    box-shadow: 2px -18px 16px 13px rgb(68 10 229 / 10%);
+}
+
+.breadcrumbWrapper {
+    font-family: Poppins;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.breadcrumbWrapper a {
+    color: #414141;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.breadcrumbWrapper a:hover {
+    color: #f14d54;
+    text-decoration: none;
+
+}
+
+.loginHeader {
+    width: fit-content;
+    margin: 0 auto;
+    color: #414141;
+}
+
+.loginHeader h1::before {
+    content: 'Login';
+    position: absolute;
+    color: #f14d54;
+}
+
+.loginHeader h1 a {
+    color: #414141;
+    text-decoration: none;
+    padding-left: 5;
+    transition: 0.2s;
+}
+
+.loginHeader h1 a:hover {
+    color: #f14d54;
+    text-decoration: none;
+}
+
+.loginHeader hr{
+    margin-top: 0;
+    width: 30%;
+    border: none;
+    border-top: 1.5px solid #f14d54;
+}
+
+.formBlock {
+
+    width: 80%;
+    margin: 20px auto 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+}
+
+.formBlock .newcustomer .benifitbullets {
+    color: #666666;
+    padding-left: 15;
+}
+
+.formBlock .logininfo .formrowwrapper {
+    margin-top: 20px;
+    display: grid;
+    gap: 30px;
+}
+
+.formBlock .logininfo .formrowwrapper .formcol {
+    margin-top: 10px;
+}
+
+.formBlock .logininfo .formrowwrapper .formcol .formfield {
+    width: 80%;
+}
+
+.formBlock .logininfo .formrowwrapper .formcol .formfield label[data-shrink='true'] {
+    padding: 0 5px;
+    background-color: #fff;
+}
+
+.formBlock .registerbutton {
+    margin-top: 40px;
+    width: fit-content;
+}
